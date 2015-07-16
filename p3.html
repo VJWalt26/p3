@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>Math Lovers Program</title>
-		<link rel="stylesheet" type="text/css" href="p3.css"/>
+		<link rel="stylesheet" type="text/css" href="p3.css" />
 	</head>
 	<body>
 		<h1>Pythagorean Formula</h1>
@@ -11,7 +11,8 @@
 			 <br />
 			 <h3> Side B </h3>
 			 <input id="SideB" type="text" />
-			 <div id="SideC"><h3>Side C: </h3></div>
+			 <div id="SideC"> </div>
+			 
 			 <br />
 			 <br />
 			 <button id="TriSolve">Solve</button>
@@ -19,14 +20,19 @@
 		</div>	
 		<h1> Quadratic Formula</h1>
 		<div id="QuadForm">
-			<input id="A" type="text" /> <h3>x<sup>2</sup> + </h3> 
-			<input id="B" type="text" /> <h3>X + </h3>
+			<input id="A" type="text" /> <p id="X2">x<sup>2</sup> + </p> 
+			<input id="B" type="text" /> <p id="X">X + </p>
 			<input id="C" type="text" />
-			<br />
-			<br />
-			<button id="QuadSolve">Solve</button>
-
 		</div>
+		<br />
+		<br />
+		<br />
+		<button id="QuadSolve">Solve</button>
+		<br />
+		<br />
+		<br />
+		<div id="QuadSolution1"></div>
+		<div id="QuadSolution2"></div>
 		<script type="text/javascript" src="gui.js"></script>
 	    <script type="text/javascript" src="p3.js"></script>
 

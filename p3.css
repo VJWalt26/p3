@@ -1,15 +1,35 @@
-.QuadForm {
+#QuadForm {
 	float:left;
 	display: inline-block;
-	background-color: green;
 }
-.A {
+	
+#A {
 	float:left;
-	clear:left;
 	display: inline-block;
+	padding:0px;
+	margin:0px;
+	vertical-align: bottom;
 }	
-.B{
+#B{
 	float:left;
-	clear:left;
 	display:inline-block;
+
+}
+#C{
+	float:left;
+	display:inline-block;
+}
+#X{
+	float:left;
+	display:inline-block;
+}
+#X2{
+	float:left;
+	display:inline-block;
+}
+#QuadSolve{
+	float:left;
+}
+#SideC {
+	font-size: 25px;
 }
