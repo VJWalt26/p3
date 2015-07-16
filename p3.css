@@ -1,0 +1,15 @@
+.QuadForm {
+	float:left;
+	display: inline-block;
+	background-color: green;
+}
+.A {
+	float:left;
+	clear:left;
+	display: inline-block;
+}	
+.B{
+	float:left;
+	clear:left;
+	display:inline-block;
+}
